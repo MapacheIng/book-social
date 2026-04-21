@@ -19,7 +19,7 @@ services:
     container_name: mail-dev
     image: axllent/mailpit:v1.27
     ports:
-      - "1080:1080"
+      - "8025:8025"
       - "1025:1025"
     volumes:
       - mail_data:/data
